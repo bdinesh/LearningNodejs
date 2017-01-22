@@ -1,10 +1,10 @@
-var http = require("http");
-var url = require("url");
+const http = require("http");
+const url = require("url");
 
 exports.start = function(route){
 
 	function onRequest(request, response){
-		var pathName = url.parse(request.url).pathname;
+		const pathName = url.parse(request.url).pathname;
 		console.log("Request for " + pathName + " received.");
 		
 		route(pathName);

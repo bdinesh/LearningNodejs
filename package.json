@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bdinesh/LearningNodejs/issues"
   },
-  "homepage": "https://github.com/bdinesh/LearningNodejs#readme"
+  "homepage": "https://github.com/bdinesh/LearningNodejs#readme",
+  "devDependencies": {
+    "eslint": "^3.14.0"
+  }
 }
